@@ -9,6 +9,8 @@ import Footer from 'components/Frontend/Footer';
 import Contact from './Contact'
 import Shop1 from './shop1';
 import Shop2 from './shop2';
+import Shop3 from './shop3';
+
 
 
 export default function Index() {
@@ -28,6 +30,8 @@ export default function Index() {
         <Route path='*' element={<Nopage />} />
         <Route path='shop1' element={<Shop1/>}/>
         <Route path='shop2' element={<Shop2/>}/>
+        <Route path='shop3' element={<Shop3/>}/>
+
 
 
 
