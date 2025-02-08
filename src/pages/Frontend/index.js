@@ -10,6 +10,8 @@ import Contact from './Contact'
 import Shop1 from './shop1';
 import Shop2 from './shop2';
 import Shop3 from './shop3';
+import Shop4 from './shop4';
+
 
 
 
@@ -31,6 +33,8 @@ export default function Index() {
         <Route path='shop1' element={<Shop1/>}/>
         <Route path='shop2' element={<Shop2/>}/>
         <Route path='shop3' element={<Shop3/>}/>
+        <Route path='shop4' element={<Shop4/>}/>
+
 
 
 
