@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function shop3() {
   return (
-    <div>shop3</div>
+    <div>this shop 3 and tell me that how are u</div>
   )
 }
